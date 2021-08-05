@@ -24,9 +24,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+/* body {
 	line-height: 1;
-}
+} */
 ol, ul {
 	list-style: none;
 }
@@ -44,3 +44,56 @@ table {
 }
 
 /*  my css */
+
+body{
+    background-color: hotpink;
+    display:flex;
+    flex-flow: column;
+}
+
+/* header */
+header{
+    display: flex;
+    flex-direction: column;
+}
+.firstline, .secondline{
+    display: flex;
+    flex-direction: row;
+}
+.firstline{
+    justify-content: center;
+}
+.secondline{
+    justify-content: space-between;
+}
+
+/* big box area */
+.bigbox{
+    display: flex;
+    justify-content: center;
+}
+.bigbox div{
+    display: flex;
+    flex-direction: column;
+}
+
+/* content rows */
+
+.lowerhalf{
+    display: flex;
+    flex-direction: column;
+}
+.firstrow{
+    display: flex;
+    justify-content: space-between;
+}
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
