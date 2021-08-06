@@ -52,6 +52,7 @@ html{
     /* border:1px dotted red; */
     max-width: 100%;
     width: 100%;
+    color: wheat;
 }
 
 body{
@@ -131,6 +132,10 @@ nav{
 .bigbox h2{
     text-align: center;
     width: 20%;
+}
+p{
+    width: 30%;
+    text-align: center;
 }
 
 /* content rows */
