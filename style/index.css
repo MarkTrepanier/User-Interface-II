@@ -63,8 +63,8 @@ body{
     font-family: fantasy;
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -94,7 +94,7 @@ nav{
 .navbutton{
     width: 15%;
     text-align: center;
-    background-color: red;
+    background-color:grey;
     padding: 1%;
     margin: 1%;
 }
@@ -102,19 +102,24 @@ nav{
 /* big box area */
 .bigbox{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bigbox div{
-    width: 80%;
-    padding-top: 50.25%;
-    background-position: center;
-    background-size: 100% 100%;
-    max-height: 50%;
-    background-image: url(../images/steve-barker-y-ShhXIj_kU-unsplash.jpg);
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 25.12% 2%;
+    margin: 1% 1%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(../images/steve-barker-y-ShhXIj_kU-unsplash.jpg);
+}
+div a{
+    background-size: 100% 100%;
+    width: 15%;
+    text-align: center;
+}
+div h2{
+    text-align: center;
+    width: 20%;
 }
 
 /* content rows */
@@ -132,7 +137,6 @@ nav{
     margin: 1% 2%;
     width:33%;
     text-align: center;
-    height: 100%;
 }
 .emptyimg{
     width: 100%;
@@ -143,6 +147,24 @@ nav{
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-image: url(../images/donny-jiang-qfJWNJ8HPkQ-unsplash.jpg);
+}
+.img1{
+    background-image: url(../images/zack-kiesewetter-2RtDXKMcXCU-unsplash.jpg);
+}
+.img2{
+    background-image: url(../images/jay-heike-bHX-Idk0vGQ-unsplash.jpg);
+}
+.img3{
+    background-image: url(../images/jorge-maya-IwbF-btC5tw-unsplash.jpg);
+}
+.img4{
+    background-image: url(../images/ruizhe-du-VHFvcHUdt90-unsplash.jpg);
+}
+.img5{
+    background-image: url(../images/natalie-parham-fPKqpUbTL4Y-unsplash.jpg);
+}
+.img6{
+    background-image: url(../images/nick-fewings-bpHiMALBe-A-unsplash.jpg);
 }
 .firstrow{
     display: flex;
