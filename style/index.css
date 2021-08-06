@@ -110,7 +110,7 @@ nav{
     margin: 1% 1%;
     background-position: center;
     background-size: 100% 100%;
-    background-image: url(../images/steve-barker-y-ShhXIj_kU-unsplash.jpg);
+    background-image: url(../images/gage-nelson-YkuwCdrSIV4-unsplash.jpg);
 }
 div a{
     background-size: 100% 100%;
@@ -137,6 +137,7 @@ div h2{
     margin: 1% 2%;
     width:33%;
     text-align: center;
+    color: wheat;
 }
 .emptyimg{
     width: 100%;
@@ -146,25 +147,25 @@ div h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    background-image: url(../images/donny-jiang-qfJWNJ8HPkQ-unsplash.jpg);
 }
-.img1{
-    background-image: url(../images/zack-kiesewetter-2RtDXKMcXCU-unsplash.jpg);
+.games{
+    background-image: url(../images/caleb-woods-fpmV3dQPUvU-unsplash.jpg);
 }
-.img2{
-    background-image: url(../images/jay-heike-bHX-Idk0vGQ-unsplash.jpg);
+.design{
+    background-image: url(../images/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg);
 }
-.img3{
-    background-image: url(../images/jorge-maya-IwbF-btC5tw-unsplash.jpg);
+.education{
+    background-image: url(../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
 }
-.img4{
-    background-image: url(../images/ruizhe-du-VHFvcHUdt90-unsplash.jpg);
+.comproj{
+    background-image: url(../images/frances-gunn-QcBAZ7VREHQ-unsplash.jpg);
+    background-color: thistle;
 }
-.img5{
+.music{
+    background-image: url(../images/ira-selendripity-qUpzRaylopM-unsplash.jpg);
+}
+.worzine{
     background-image: url(../images/natalie-parham-fPKqpUbTL4Y-unsplash.jpg);
-}
-.img6{
-    background-image: url(../images/nick-fewings-bpHiMALBe-A-unsplash.jpg);
 }
 .firstrow{
     display: flex;
