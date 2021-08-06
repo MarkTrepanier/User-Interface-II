@@ -49,24 +49,29 @@ html{
 }
 *{
     box-sizing: border-box;
-    border:1px dotted red;
+    /* border:1px dotted red; */
     max-width: 100%;
     width: 100%;
 }
 
 body{
+    
+    font-family: fantasy;
     font-size: 1.6rem;
     background-image: url(../images/cam-fattahi-X9T9nbaetgM-unsplash.jpg);
 }
 .content{
-    
-    font-family: fantasy;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+a{
+    color: wheat;
+    text-decoration: unset;
+    border: 3px solid #4f4f4f;
+}
 
 /* header */
 header{
@@ -92,6 +97,7 @@ nav{
     width: 98%;
 }
 .navbutton{
+    border: 3px solid #4f4f4f;
     width: 15%;
     text-align: center;
     background-color:grey;
@@ -110,14 +116,19 @@ nav{
     margin: 1% 1%;
     background-position: center;
     background-size: 100% 100%;
+    border: 3px solid #4f4f4f;
     background-image: url(../images/gage-nelson-YkuwCdrSIV4-unsplash.jpg);
 }
-div a{
+.bigbox h2, .bigbox a{
+    margin: 2%;
+    border: 3px solid #4f4f4f;
+}
+.bigbox a{
     background-size: 100% 100%;
     width: 15%;
     text-align: center;
 }
-div h2{
+.bigbox h2{
     text-align: center;
     width: 20%;
 }
@@ -138,6 +149,7 @@ div h2{
     width:33%;
     text-align: center;
     color: wheat;
+    border: 3px solid #4f4f4f;
 }
 .emptyimg{
     width: 100%;
@@ -178,6 +190,7 @@ div h2{
 
 /* footer */
 footer{
+    border: 3px solid #4f4f4f;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
