@@ -1,1 +1,202 @@
-/* Add CSS styling here */
+/* eric meyers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/*  my css */
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    /* border:1px dotted red; */
+    max-width: 100%;
+    width: 100%;
+    color: wheat;
+}
+
+body{
+    
+    font-family: fantasy;
+    font-size: 1.6rem;
+    background-image: url(../images/cam-fattahi-X9T9nbaetgM-unsplash.jpg);
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: wheat;
+    text-decoration: unset;
+    border: 3px solid #4f4f4f;
+}
+
+/* header */
+header{
+    display: flex;
+    flex-direction: column;
+}
+.firstline, .secondline{
+    display: flex;
+}
+.firstline{
+    justify-content: center;
+}
+.meatballs{
+    align-self: flex-start;
+}
+.secondline{
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    width: 98%;
+}
+.navbutton{
+    border: 3px solid #4f4f4f;
+    width: 15%;
+    text-align: center;
+    background-color:grey;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* big box area */
+.bigbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 25.12% 2%;
+    margin: 1% 1%;
+    background-position: center;
+    background-size: 100% 100%;
+    border: 3px solid #4f4f4f;
+    background-image: url(../images/gage-nelson-YkuwCdrSIV4-unsplash.jpg);
+}
+.bigbox h2, .bigbox a{
+    margin: 2%;
+    border: 3px solid #4f4f4f;
+}
+.bigbox a{
+    background-size: 100% 100%;
+    width: 15%;
+    text-align: center;
+}
+.bigbox h2{
+    text-align: center;
+    width: 20%;
+}
+p{
+    width: 30%;
+    text-align: center;
+}
+
+/* content rows */
+
+.lowerhalf{
+    display: flex;
+    flex-direction: column;
+
+}
+.boxset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 2%;
+    width:33%;
+    text-align: center;
+    color: wheat;
+    border: 3px solid #4f4f4f;
+}
+.emptyimg{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.games{
+    background-image: url(../images/caleb-woods-fpmV3dQPUvU-unsplash.jpg);
+}
+.design{
+    background-image: url(../images/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg);
+}
+.education{
+    background-image: url(../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+}
+.comproj{
+    background-image: url(../images/frances-gunn-QcBAZ7VREHQ-unsplash.jpg);
+    background-color: thistle;
+}
+.music{
+    background-image: url(../images/ira-selendripity-qUpzRaylopM-unsplash.jpg);
+}
+.worzine{
+    background-image: url(../images/natalie-parham-fPKqpUbTL4Y-unsplash.jpg);
+}
+.firstrow{
+    display: flex;
+    justify-content: space-between;
+}
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer{
+    border: 3px solid #4f4f4f;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
