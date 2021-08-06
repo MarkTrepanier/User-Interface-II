@@ -24,12 +24,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-/* body {
+body {
 	line-height: 1;
-} */
-ol, ul {
-	list-style: none;
 }
+/* ol, ul {
+	list-style: none;
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -38,25 +38,35 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
+/* table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
 /*  my css */
 html{
     font-size: 62.5%;
 }
 *{
+    box-sizing: border-box;
     border:1px dotted red;
+    max-width: 100%;
+    width: 100%;
 }
+
 body{
     font-size: 1.6rem;
-    font-family: fantasy;
-    background-color: hotpink;
-    display:flex;
-    flex-flow: column;
+    background-image: url(../images/cam-fattahi-X9T9nbaetgM-unsplash.jpg);
 }
+.content{
+    
+    font-family: fantasy;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
 
 /* header */
 header{
@@ -65,22 +75,24 @@ header{
 }
 .firstline, .secondline{
     display: flex;
-    flex-direction: row;
 }
 .firstline{
     justify-content: center;
+}
+.meatballs{
+    align-self: flex-start;
 }
 .secondline{
     justify-content: space-between;
 }
 nav{
     display: flex;
-    margin-right: 2%;
-    width: 50%;
     justify-content: flex-end;
+    margin-right: 2%;
+    width: 98%;
 }
 .navbutton{
-    width: 10%;
+    width: 15%;
     text-align: center;
     background-color: red;
     padding: 1%;
@@ -91,10 +103,18 @@ nav{
 .bigbox{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .bigbox div{
+    width: 80%;
+    padding-top: 50.25%;
+    background-position: center;
+    background-size: 100% 100%;
+    max-height: 50%;
+    background-image: url(../images/steve-barker-y-ShhXIj_kU-unsplash.jpg);
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /* content rows */
@@ -102,6 +122,7 @@ nav{
 .lowerhalf{
     display: flex;
     flex-direction: column;
+
 }
 .boxset{
     display: flex;
@@ -109,7 +130,19 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 1% 2%;
-    width:33%
+    width:33%;
+    text-align: center;
+    height: 100%;
+}
+.emptyimg{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url(../images/donny-jiang-qfJWNJ8HPkQ-unsplash.jpg);
 }
 .firstrow{
     display: flex;
