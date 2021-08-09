@@ -113,7 +113,7 @@ nav{
     justify-content: center;
     align-items: center;
     width: 80%;
-    padding: 25.12% 2%;
+    padding:2%;
     margin: 1% 1%;
     background-position: center;
     background-size: 100% 100%;
@@ -150,8 +150,8 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1% 2%;
-    width:33%;
+    margin: 1% 1%;
+    width:30%;
     text-align: center;
     color: wheat;
     border: 3px solid #4f4f4f;
@@ -187,6 +187,7 @@ p{
 .firstrow{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .secondrow{
     display: flex;
@@ -199,4 +200,52 @@ footer{
     background-color: lightgrey;
     display: flex;
     justify-content: center;
+}
+
+/* desktop first */
+@media(max-width: 500px){
+    /* header */
+    .sitetitle{
+        display: none;
+    }
+    .secondline{
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        justify-content:  center;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* bigimg */
+    .bigbox{
+        background-size: 0 0;
+        padding: 10%;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .bigbox h2{
+        width: auto;
+    }
+    .bigbox a{
+        width: 40%;
+    }
+    p{
+        display: none;
+    }
+    .firstrow{
+        justify-content: space-evenly;
+    }
+    .boxset{
+        margin: 1% .5%;
+        width:40%;
+    }
+    .navbutton{
+        width: 33%;
+    }
 }
